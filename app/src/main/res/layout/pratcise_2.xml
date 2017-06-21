@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dp"
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView  android:text="name"/>
+        <EditText  android:inputType="text"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Address"/>
+        <EditText android:inputType="textLongMessage"/>
+    </TableRow>
+    <TableRow>
+        <CheckBox android:layout_column="1"
+            android:text="Are you a noob?"/>
+    </TableRow>
+    <TableRow>
+        <ProgressBar android:layout_span="2"
+            android:indeterminate="true"
+            />
+    </TableRow>
+</TableLayout>
